@@ -1,0 +1,42 @@
+body {
+    background-color: #a7e0f6;
+    font-family: Verdana, Arial, helvetica, sans-serif;
+}
+
+#out-wrapper {
+    width: 100%;
+    padding-top: 70px;
+}
+
+#attr-list {
+    list-style: None;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    background-color: #ffd851;
+    border-radius: 12px;
+    border: 2px solid;
+    padding: 22pt 0 0;
+}
+
+.attr {
+    height: 40pt;
+}
+
+div {
+    display: inline-block;
+}
+
+.attr-name {
+    text-align: left;
+    font-weight: bold;
+    font-size: 13pt;
+    width: 80pt;
+}
+
+.attr-value {
+    text-align: left;
+    font-size: 13pt;
+    width: 80pt;
+}

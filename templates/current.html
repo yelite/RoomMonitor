@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Room Monitor</title>
+
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="{{ url_for('static', filename='current.css') }}" type="text/css"/>
+    <link rel="icon" type="img/ico" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+<div id="out-wrapper">
+    <ul id="attr-list">
+        {% for key, value in items %}
+            <li class="attr">
+                <div class="attr-name">{{ key }}</div>
+                <div class="attr-value">{{ value }}</div>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+
+</body>
+</html>
