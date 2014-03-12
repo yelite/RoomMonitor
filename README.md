@@ -19,7 +19,7 @@ Room Environment Monitor on pcDuino
 ###Install
 1. Build C/C++ sensor modules
 
-		$ make
+		$ make all
 2. Edit `fetch.py` to match your sensor pin configuration
 3. Create cron job for `fetch.py`
 
