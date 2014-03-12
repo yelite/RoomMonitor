@@ -34,6 +34,6 @@ def store(data):
 
 if __name__ == '__main__':
     LOG_PATH = os.path.join(MAIN_DIC, 'log/fetch.log')
-    logging.basicConfig(filename=LOG_PATH, filemode='a', level=logging.DEBUG,
+    logging.basicConfig(filename=LOG_PATH, filemode='a', level=logging.INFO,
                         format='%(asctime)s - %(levelname)s: %(message)s')
     store(fetch())
