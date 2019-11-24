@@ -2,21 +2,24 @@ RoomMonitor
 ===========
 
 Room Environment Monitor on pcDuino
-###Features
+
+:warning: This project is archived and no longer used by me. Please check https://github.com/yelite/home-system-room-node for its successor.
+
+### Features
 
 - Pressure, temperature, humidity and luminous intensity measurement
 - Web interface to check the current value as well as historical data
 
-###Sensors
+### Sensors
 - BMP085/180 (Used library from [Adafruit](https://github.com/adafruit/Adafruit-BMP085-Library))
 - DHT
 - Photoresistor module
 
-###Screen Shots
+### Screen Shots
 ![stat](docs/screenshot_stat.png)
 ![current](docs/screenshot_current.png)
 
-###Install
+### Install
 1. Build C/C++ sensor modules
 
 		$ make all
@@ -34,10 +37,10 @@ or
 
 		$ gunicorn -c gunicorn_config.py main:app
 
-###Built by
+### Built by
 - [Flask](flask.pocoo.org)
 - [SQLAlchemy](www.sqlalchemy.org) (An overkill for this case, but I like it :)
 - [Highstock](http://www.highcharts.com/)
 
-###License
+### License
 This project is licensed under the [MIT license](http://opensource.org/licenses/MIT).
